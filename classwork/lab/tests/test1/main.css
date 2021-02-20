@@ -1,0 +1,32 @@
+main, section {
+    width: 50%;
+    margin: auto;
+}
+
+main {
+    border: 2px solid grey;
+}
+
+section {
+    background-color: pink;
+    width: fit-content;
+}
+
+/************** Targeted Elements **************/
+#section1 {
+    border: 15px ridge darkgreen;
+}
+
+#section2 {
+    border: 10px solid greenyellow;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+
+#section1 p{
+    font-size: 18px;
+}
+
+#section2 p{
+    font-size: 11px;
+}

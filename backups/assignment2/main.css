@@ -1,0 +1,218 @@
+* {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-size: 18px;
+    color: #ffa45b;
+}
+body {
+    background: linear-gradient(90deg, rgba(242,209,255,1) 0%, rgba(255,255,255,1) 48%, rgba(252,234,255,1) 100%);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    margin-top: -14px;
+    padding: 19px;
+}
+
+h1 {
+    position: relative;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 22px;
+    text-shadow: 3px 3px black;
+}
+
+h2 {
+    margin-left: 250px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#mainmenu {
+    position: relative;
+    padding-top: 0;
+    width: 200px;
+    float: left;
+    text-align: left;
+    background-color: #ffe3de;
+    border-color: #fcd1d1;
+    border-style: ridge;
+    border-radius: 25px;
+    position: sticky;
+    top: 20px;
+
+}
+
+.headimg {
+    background-image: url("images/pikachuv2.png");
+    background-color: linear-gradient(90deg, rgba(242,209,255,1) 0%, rgba(255,255,255,1) 48%, rgba(252,234,255,1) 100%);
+    background-size: 200px;   
+    background-attachment: relative;
+    height: 200px;
+    width: 100%;
+    
+}
+
+hr {
+    border-top: 2px solid #ffa45b;
+}
+
+.pagetheme, .listol, .listul, dl, #nestedol, #nestedul {
+    display: block;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 200px;
+    border-radius: 20px;
+    background-color: #ffe3de;
+}
+
+/********** List 3 - Three Different Unordered Lists **********/
+#disclist {
+    list-style-type: disc;
+}
+#circlelist {
+    list-style-type: circle;
+}
+#squarelist {
+    list-style-type: square;
+}
+/**************************************************************/
+
+.listheader {
+    display: block;
+    font-style: italic;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 200px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+
+#navul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#nav1 {
+    margin-top: -18px;
+
+}
+
+#nav4 {
+    margin-bottom: -18px;
+}
+
+#nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover {
+    background-color: white;
+    
+}
+.navlink {
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+#nav1, #topnav {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#nav4, #bottomnav {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+iframe {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 600px;
+    height: 450px;
+}
+
+address {
+    text-decoration: underline;
+}
+
+.contactinfo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    margin-right: 15%;
+    margin-top: 10%;
+    border-top-style: inset;
+    
+}
+
+address {
+    float: right;
+    margin-right: -335px;
+    margin-top: 265px;
+    border-bottom-style: outset;
+}
+
+#msgIcon {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+#bookmark {
+    display: relative;
+    float: right;
+    background-color: transparent;
+    margin-top: -10px;
+    position: sticky;
+    top: 0;
+}
+
+.bookmarklist {
+    display: inline;
+    background-color: #ffe3de;
+    border-color: #fcd1d1;
+    border-style: ridge;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.booklink {
+    display: inline;
+    padding-top: 0;
+    padding-bottom: 3px;
+    border-radius: 25px;
+} 
+.bookmarklist:hover {
+    background-color: white;
+}
+
+.coursetable {
+    display: block;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 200px;
+    border-radius: 20px;
+    background-color: #ffe3de;
+    border-style: groove;
+    border-color: #fcd1d1;
+}
+.coursetable tr th {
+    text-align: center;
+    border-style: groove;
+    border-radius: 20px;
+    border-color: #fcd1d1;
+}
+
+.coursetable tr td {
+    text-align: center;
+    border-style: groove;
+    border-radius: 20px;
+    border-color: #fcd1d1;
+}
+
+.container {
+    margin-bottom: 10%;
+}

@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1, h2 {
+    font-family: Georgia;
+    background: -webkit-linear-gradient(#0a16bb, #4580ff, #fcfcfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

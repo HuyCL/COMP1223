@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Resume</title>
+        <meta name="keywords" content="COMP1223 49288">
+        <meta name="description" content="COMP1223 assignment 2 webpage: create multiple HTML & navigate between pages while utilizing CSS to stylize all the pages">
+        <meta name="author" content="Huy Lam">
+        <link href="main.css" rel="stylesheet">
+        <link href="images/olympics.ico" rel="browser icon">
+    </head>
+
+    <body>
+        <div class="headimg">
+            <hr>
+            <h1>RESUME</h1>
+            <hr>
+        </div>
+
+        <main>
+            <div class="container">
+                <nav id="mainmenu" style="margin-top: 7px;"> <!-- Navigation menu to change to various html page -->
+                    <ul id="navul">
+                        <li id="nav1" class="navlink"><a id = "topnav" class="active" href="index.html">Home</a></li>
+                        <li id="nav2" class="navlink"><a href="resume.html">Resume</a></li>
+                        <li id="nav3" class="navlink"><a href="lists.html">List</a></li>
+                        <li id="nav4" class="navlink"><a id= "bottomnav" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav id="bookmark">
+                    <ul style="list-style-type: none;">
+                        <li class="bookmarklist"><a class="booklink" href="#education">Education</a></li>
+                        <li class="bookmarklist"><a class="booklink" href="#course">Relevant Coursework</a></li>
+                        <li class="bookmarklist"><a class="booklink" href="#work">Professional Experience</a></li>
+                </nav>
+
+
+                <h2 id="education">
+                    <br><br><br><br>
+                    Education
+                </h2>
+                <div class="pagetheme">
+                    <br>
+                    <p>Emery Collegiate Institute<span style="float: right;padding-right: 1.2em">Sep 2013 - Jun 2017</span></p>
+                    <br>
+                    <p>Seneca College - <i>Computer Programming</i><span style="float: right;padding-right: 1.2em">May 2018 - Dec 2020</span></p>
+                    <br>
+                </div>
+                <br><br>
+
+
+                <h2 id="course">
+                    <br><br><br><br>
+                    Relevant Coursework
+                </h2>
+                <table class="coursetable">
+                    <tr>
+                      <th>Course</th>
+                      <th>Description</th>
+                      <th>Assessment</th>
+                    </tr>
+                    <tr>
+                      <td>COMP1236 - Applied Programming Logic</td>
+                      <td>The course will develop foundational skills related to computational logic by exploring basicconcepts such as
+                        problem solving, algorithms, flow charts, and pseudocode. Learners willalso be introduced to programming concepts
+                        with variables, keywords, programmingsyntax, conditional/iterative statements, functions, and handling of files are
+                        covered as well.</td>
+                      <td>
+                          Quiz One - History And Computer Basics<br><br>
+                          Quiz Two - Problem Solving<br><br>
+                          Quiz Three - Algorithms And Flow Charts
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>GSSC1045 - Business Applications for Information Technology</td>
+                        <td>This course studies what information systems are and how they are used to enable organizations to operate their
+                            businesses. Topics will include the evaluation of information systems, analysis of data resources and network
+                            management, assess electronic business systems, and the security and ethical challenges impacting information
+                            systems by the shift to e-business, social media, appropriate workplace behaviours, and mobile computing. The
+                            course will examine closely the principles of successful management of information systems in businesses.</td>
+                        <td>
+                            Quiz One - What Is A Business?<br><br>
+                            Quiz Two - Business Driven MIS<br><br>
+                            Quiz Three - Decisions And Processes Value Driven Business<br><br>
+                            Quiz Four - eBusiness: Electronic Business Value
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>COMP1151 - IT Essentials: Computer Hardware Fundamentals</td>
+                        <td>This course covers fundamentals of computer architecture, associated terminology and basic troubleshooting
+                            methodology. After completing this course, the students will be able to demonstrate how to assemble and
+                            disassemble hardware components, install, configure and maintain desktop computers, laptops, basic networking,
+                            effective customer support skills, resolve hardware related issues and document problem resolution. The students
+                            would be able to propose hardware architecture based on customer business requirements.</td>
+                        <td>
+                            Quiz One - Overview Of Desktop Computer<br><br>
+                            Quiz Two - Hardware Information & System Monitoring<br><br>
+                            Quiz Three - Performance Test<br><br>
+                            Quiz Four - Understand I/O Ports
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MATH1162 - Mathematics For Computer Technology I</td>
+                        <td>This Technical Mathematics course focuses on fundamentals in algebra including problem solving and graphing; the
+                            following main topics are covered:?Review of fundamental algebraic operations?Factoring and fractions in algebraic
+                            form?Decimal, Binary and Hexadecimal Number System?Exponents and radicals?Quadratic Equations.</td>
+                        <td>
+                            Project 1 - Number Systems<br><br>
+                            Test 1 - Variable Expressions, Real Numbers, First-Degree Equation, and Inequalities
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>COMP1223 - Web Development Fundamentals</td>
+                        <td>This course is an introduction to web programming. The focus of this course is on fundamentals of a web application
+                            such as client and server interaction, application design, implementation, and deployment. The course focuses on
+                            HTML5 and CSS3 features and standards.</td>
+                        <td>
+                            Assignment 1 - Student Profile Page<br><br>
+                            Assignment 2 - Student Profile Website
+                        </td>
+                    </tr>
+                </table>
+
+
+                <h2 id="work">
+                    <br><br><br><br>
+                    Professional Work Experience
+                </h2>
+                <section class="pagetheme">
+                    <br>
+                    <p style="font-size: 20px;">Cineplex, ON - <i>Cast Member</i> <span style="float: right;padding-right: 1.2em">Jun 2019 - Present</span></p>
+                    <h3 style="padding-left: 40px;">Award</h3>
+                    <ul>
+                        <li>The Epitome Of Teamwork Award (Dec 2019)</li>
+                        <li>Customer Service Award (Jan 2020)</li>
+                    </ul>
+                    <h3 style="padding-left: 40px;">Duties</h3>
+                    <ul>
+                        <li>Manage supplies ensuring no shortage</li>
+                        <li>Provide customer service outside and inside auditoriums</li>
+                        <li>Maintain cleanliness at workstation and guest areas</li>
+                        <li>Manage sales transactions and customer support</li>
+                    </ul>
+                    <h3 style="padding-left: 40px;">Skills Obtained</h3>
+                    <ul>
+                        <li>Team work</li>
+                        <li>Communication</li>
+                        <li>Emotional conrol</li>
+                        <li>Adaptability</li>
+                    </ul>
+
+                    <hr style="border: 1px dotted;">
+                    
+                    <p style="font-size: 20px;">Remco, ON - <i>Packager</i> <span style="float: right;padding-right: 1.2em">Sep 2016 - Feb 2017</span></p>
+                    <h3 style="padding-left: 40px;">Award</h3>
+                    <ul>
+                        <li>Extraordinary Diligence Award (Nov 2016)</li>
+                        <li>Employee Of The Month (Feb 2017)</li>
+                    </ul>
+                    <h3 style="padding-left: 40px;">Duties</h3>
+                    <ul>
+                        <li>Organized and maintained accuracy of orders requested from clients</li>
+                        <li>Arrange and wrap products according to client's preference</li>
+                        <li>Export products to clients in a timely manner</li>
+                    </ul>
+                    <h3 style="padding-left: 40px;">Skills Obtained</h3>
+                    <ul>
+                        <li>Punctuality</li>
+                        <li>Planning and organising</li>
+                        <li>Leadership</li>
+                    </ul>
+                    <br>
+                </section>
+            </div>
+                
+
+        </main>
+        <footer>
+            <script src="https://my.gblearn.com/js/loadscript.js"></script>
+        </footer>
+    </body>
+</html>

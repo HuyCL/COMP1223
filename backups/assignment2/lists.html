@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML5 Lists</title>
+        <meta name="keywords" content="COMP1223 49288">
+        <meta name="description" content="COMP1223 assignment 2 webpage: create multiple HTML & navigate between pages while utilizing CSS to stylize all the pages">
+        <meta name="author" content="Huy Lam">
+        <link href="main.css" rel="stylesheet">
+        <link href="images/olympics.ico" rel="browser icon">
+    </head>
+
+    <body>
+        <div class="headimg">
+            <hr>
+            <h1>HTML5 LISTS</h1>
+            <hr>
+        </div>
+
+        <main>
+            <div class="container">
+                <nav id="mainmenu"> <!-- Navigation menu to change to various html page -->
+                    <ul id="navul">
+                        <li id="nav1" class="navlink"><a id = "topnav" class="active" href="index.html">Home</a></li>
+                        <li id="nav2" class="navlink"><a href="resume.html">Resume</a></li>
+                        <li id="nav3" class="navlink"><a href="lists.html">List</a></li>
+                        <li id="nav4" class="navlink"><a id= "bottomnav" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <h3 class="listheader">list 1 - five different ordered lists</h3>
+                <ol class="listol" type="1">
+                    <li>Apple</li>
+                    <li>Pie</li>
+                    <li>Good</li>
+                </ol>
+                <ol class="listol" type="a">
+                    <li>Bacon</li>
+                    <li>Cheese</li>
+                    <li>Burger</li>
+                </ol>
+                <ol class="listol" type="A">
+                    <li>Chrome</li>
+                    <li>Firefox</li>
+                    <li>Safari</li>
+                </ol>
+                <ol class="listol" type="i">
+                    <li>C#</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </ol>
+                <ol class="listol" type="I">
+                    <li>Wane</li>
+                    <li>Delphine</li>
+                    <li>Belle</li>
+                </ol>
+
+                <h3 class="listheader">list 2 - three different unordered lists</h3>
+                <ul id="disclist" class="listul">
+                    <li>Spring</li>
+                    <li>Fall</li>
+                    <li>Winter</li>
+                </ul>
+                <ul id="circlelist" class="listul">
+                    <li>New Year</li>
+                    <li>Christmas</li>
+                    <li>Halloween</li>
+                </ul>
+                <ul id="squarelist" class="listul">
+                    <li>Coke</li>
+                    <li>Pepsi</li>
+                    <li>Fanta Orange</li>
+                </ul>
+
+                <h3 class="listheader">list 3 - definition list</h3>
+                <dl>
+                    <dt>This is a definition</dt>
+                    <dd>Another definition</dd>
+                </dl>
+
+                <h3 class="listheader">list 4 - nested ordered list</h3>
+                <ol id="nestedol" type="I">
+                    <li>Ordered
+                        <ol>
+                            <li>Nested</li>
+                            <li>Ordered List</li>
+                        </ol>
+                    </li>
+                    <li>List</li>
+                </ol>
+
+                <h3 class="listheader">list 5 - nested unordered list</h3>
+                <ul id="nestedul">
+                    <li>Unordered
+                        <ul>
+                            <li>Nested</li>
+                            <li>Unordered List</li>
+                        </ul>
+                    </li>
+                    <li>List</li>
+                </ul>
+            </div>        
+        </main>
+        <footer>
+            <script src="https://my.gblearn.com/js/loadscript.js"></script>
+        </footer>
+    </body>
+</html>
